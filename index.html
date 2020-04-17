@@ -7,20 +7,43 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
+    <header class="header"> 
+        <section class="header__primary">
+            <img class="header__logo" src="./img/logo.png">
+        </section>
 
-        <nav class="menu">
-            <ul class="menu__ul">
-                <li class="menu__item"><a class="menu__link" href="#">Potions</a></li>
-                <li class="menu__item"><a class="menu__link" href="#">Ingredientes</a></li>
-                <li class="menu__item"><a class="menu__link" href="#">Books</a></li>
-                <li class="menu__item"><a class="menu__link" href="#">Supplies</a></li>
-                <li class="menu__item"><a class="menu__link" href="#">Charms</a></li>
-                <li class="menu__item"><a class="menu__link" href="#">Clearance!</a></li>
-            </ul>
-        </nav>
+        <section class="header__s">
+            <input type="text" placeholder="Search our stock" type="submit" class="input"></input>
+        </section>
+        
+        <section class="header__t">
+            <h2 class="header__free"> Free shipping </h2> 
+            <h3 class="header__free">on orders over $50</h3>
+        </section>
+        
+        <section class="header__q header__box" >
+            <img class="header__bag"src="img/bag.png">
+            <p class="bag__text">BAG: <span>1</span></p>
+        </section>
 
+        
     </header>
+    <nav class="menu">
+        <ul class="menu__ul">
+            <li class="menu__item"><a class="menu__link" href="#">Potions</a></li>
+            <li class="menu__item"><a class="menu__link" href="#">Ingredientes</a></li>
+            <li class="menu__item"><a class="menu__link" href="#">Books</a></li>
+            <li class="menu__item"><a class="menu__link" href="#">Supplies</a></li>
+            <li class="menu__item"><a class="menu__link" href="#">Charms</a></li>
+            <li class="menu__item"><a class="menu__link" href="#">Clearance!</a></li>
+            <li class="menu__item"><a class="menu__link" href="#">Sign In</a></li>
+            <li class="menu__item"><a class="menu__link">or</a></li>
+            <li class="menu__item"><a class="menu__link" href="#">Sign Up</a></li>
+        </ul>
+       
+    </nav>
+   
+   
     <main>
         <h2>Potions</h2>
 
@@ -62,7 +85,6 @@
                         <li class="contact__item"><a class="contact__link" href="#">Company</a></li>
                         <li class="contact__item"><a class="contact__link" href="#">Contact Us</a></li>
                         <li class="contact__item"><a class="contact__link" href="#">Shipping</a></li>
-                        <br>
                         <li class="contact__item"><a class="contact__link" href="#">Returns</a></li>
                         <li class="contact__item"><a class="contact__link" href="#">Careers</a></li>
                     </ul>
@@ -79,10 +101,10 @@
                 
                 <div class="footer__submit">                  
                     <form>
-                        <p>Sign up for our Newsletter</p>
-                        <p>Sign up for our newsletter & get exclusive discounts!</p>
-                        <input type="text">
-                        <button type="submit">SUBMIT</button>
+                        <p class="text__footer">Sign up for our Newsletter</p>
+                        <p class="subtitle__footer">Sign up for our newsletter & get exclusive discounts!</p>
+                        <input class="input__footer"type="text">
+                        <button class="button__footer"type="submit">SUBMIT</button>
                     </form>
                 </div>
                
